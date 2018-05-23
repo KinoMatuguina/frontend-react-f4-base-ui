@@ -1,0 +1,49 @@
+/**
+* f4InputGridList
+*/
+.f4InputGridList {
+  display: inline-block;
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.f4InputGridListElement {
+  min-width: 209px;
+  max-width: 209px;
+  min-height: 303px;
+  max-height: 303px;
+  position: relative;
+  float: left;
+  padding: 30px;
+  -webkit-animation: slideDownFade 0.7s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: slideDownFade 0.7s; /* Firefox < 16 */
+  -ms-animation: slideDownFade 0.7s; /* Internet Explorer */
+  -o-animation: slideDownFade 0.7s; /* Opera < 12.1 */
+  animation: slideDownFade 0.7s;
+}
+
+.f4InputGridListElementAdd {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  position: relative;
+  float: left;
+  padding: 30px;
+}
+
+.f4InputGridListElementClose {
+  position: absolute;
+  top: -7px;
+  right: -21px;
+  margin: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.f4GridListForm {
+}
+
+.f4GridListForm .Select {
+  text-align: left !important;
+}

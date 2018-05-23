@@ -1,0 +1,24 @@
+/**
+* f4InputSignaturePad
+*/
+.f4InputSignaturePad {
+  text-align: center;
+  display: inline-block;
+}
+
+.f4InputSignaturePadBody {
+}
+
+
+.f4InputSignaturePadFSButton > span {
+  color: gray;
+}
+
+.f4InputSignaturePadFSButton:hover {
+  transform: scale(1.5);
+}
+
+.f4InputSignaturePadBody > canvas {
+  border: 1px solid gray;
+  border-radius: 3px;
+}

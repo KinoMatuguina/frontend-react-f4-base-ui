@@ -1,0 +1,19 @@
+.modal-open {
+  overflow: hidden !important;
+}
+
+.modal-content {
+  box-shadow: none !important;
+  border-radius: 3px !important;
+}
+
+.modal-header {
+  background-color: $color-modal-header-bg !important;
+  color: $color-modal-header-text !important;
+}
+
+.close {
+  color: $color-modal-header-text !important;
+  opacity: 1;
+  padding-top: 2px !important;
+}

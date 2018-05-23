@@ -1,0 +1,101 @@
+.f4DataTable {
+  font-size: 12px !important;
+}
+
+.f4DataTable > thead {
+  color: $color-table-header-text;
+  background-color: $color-table-header-bg !important;
+  font-size: 12px;
+  vertical-align: middle;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.f4DataTableTh {
+  text-align: center;
+}
+
+.f4DataTableTh, .f4DataTableTd {
+  padding: 15px !important;
+  font-size: 11px;
+  vertical-align: middle !important;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.f4DataTableAbstractTh {
+  background-color: $color-table-header-bg !important;
+  position: absolute;
+  max-width: 120px;
+  min-width: 120px;
+  top: auto;
+  left: auto;
+  right: 2.8em;
+  border-top: none;
+  border-left: 1px solid $color-table-abstract-header-border;
+}
+
+.f4DataTableAbstractThPlaceholder > p {
+  width: 120px !important;
+  visibility: hidden;
+}
+
+.f4DataTableTdleft {
+  text-align: left;
+}
+
+.f4DataTableTdcenter {
+  text-align: center;
+}
+
+.f4DataTableTdright {
+  text-align: right;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1), .table-stripped > tbody > tr:nth-child(2n+1) > td {
+   background-color: $color-table-striped-bg;
+}
+
+.table-striped > tbody > tr:hover {
+   background-color: $color-table-striped-hover-bg;
+}
+
+.f4DataTableAbstractTd {
+  background-color: $color-table-abstract-cell-bg;
+  position: absolute;
+  max-width: 120px;
+  min-width: 120px;
+  top: auto;
+  left: auto;
+  right: 2.8em;
+  border-top: none;
+  border-left: 1px solid $color-table-abstract-cell-border;
+}
+
+.f4DataTableAbstractTdPlaceholder > p {
+  width: 120px;
+  visibility: hidden;
+}
+
+.f4DataTableAbstractTh {
+  min-height: 55px !important;
+  border-width: 0.5px !important;
+}
+
+.f4DataTableAbstractTd, .f4DataTableTd, .f4DataTableAbstractTh, .f4DataTableTh {
+  min-height: 71px !important;
+}
+
+.f4DataTableAbstractTh.abstractPadded {
+  padding-top: 2.5em !important;
+}
+
+.f4DataTableTr.selected {
+  background-color: $color-table-striped-selected-bg !important;
+}
+
+.f4DataTableTr.selected td {
+  color: $color-table-striped-selected-text !important;
+}

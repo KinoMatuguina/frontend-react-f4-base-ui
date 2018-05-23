@@ -1,0 +1,16 @@
+.f4Drawer {
+  position: fixed;
+  overflow: hidden !important;
+  height: 100%;
+  padding: 0px 0px 50px 0px;
+  top: 50;
+  left: 0;
+  border: none;
+  border-radius: 0px;
+  background-color: $color-sidedrawer-bg;
+  color: $color-sidedrawer-text;
+  width: 220px !important;
+  min-width: 220px !important;
+  max-width: 220px !important;
+  z-index: 999 !important;
+}

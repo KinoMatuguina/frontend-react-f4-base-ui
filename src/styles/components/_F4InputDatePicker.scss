@@ -1,0 +1,179 @@
+/**
+* f4InputDatePicker yearsList
+*/
+.f4InputDatePicker .yearsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.f4InputDatePicker .yearsList .yearListItem {
+  cursor: pointer;
+  list-style: none;
+  padding: 5px 0px 5px 0px;
+  color: gray;
+  transition: all 0.25s ease-in-out;
+}
+
+.f4InputDatePicker .yearsList .yearListItem:nth-child(2n+1) {
+  background-color: #D3ECF5;
+}
+
+.f4InputDatePicker .yearsList .yearListItem:hover,
+.f4InputDatePicker .yearsList .yearListItemSelected:hover {
+  transform: scale(1.2);
+  color: white;
+  background-color: #2d71b3;
+}
+
+.f4InputDatePicker .yearsList .yearListItemSelected {
+  background-color: #2d71b3;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.f4InputDatePicker .yearsList .yearListItemDisabled {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+}
+
+/**
+* f4InputDatePicker monthTitle
+*/
+.f4InputDatePicker .monthTitle {
+  color: #2d71b3;
+  font-size: 15px;
+  padding: 7px 0 0 0;
+}
+
+.f4InputDatePicker .monthTitle > span {
+  padding: 7px 15px 5px 15px;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.f4InputDatePicker .monthTitle > span:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+/**
+* f4InputDatePicker dayContainer
+* f4InputDatePicker dayText
+*/
+
+
+.f4InputDatePicker .dayContainer, .f4InputDatePicker .dayContainerCurrent {
+  transition: all 0.3s ease-in-out;
+  color: gray;
+}
+
+.f4InputDatePicker .dayContainer:hover, .f4InputDatePicker .dayContainerCurrent:hover {
+  border-radius: 50% !important;
+  background-color: #2d71b3 !important;
+  color: white !important;
+}
+
+.f4InputDatePicker.dayContainerSelected, .f4InputDatePicker.dayContainerSelectedCurrent{
+  border-radius: 50% !important;
+  background-color: #2d71b3 !important;
+  color: white !important;
+}
+
+.f4InputDatePicker.dayContainerDisabled {
+  cursor: not-allowed !important;
+}
+
+/**
+* f4InputDatePicker fullWeekHeader
+*/
+.f4InputDatePicker .fullWeekHeader {
+  color: #2d71b3;
+}
+
+/**
+* calendarArrow
+*/
+.calendarArrow {
+  width: 31px;
+  height: 31px;
+  color: gray;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 7px;
+  z-index: 1 !important;
+}
+
+
+.calendarArrow:hover {
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+}
+
+.calendarArrow > span {
+  transition: all 0.25s ease-in-out;
+}
+
+.calendarArrow:hover:first-child > span {
+  transform: translateX(-2px);
+}
+.calendarArrow:hover:nth-child(2) > span {
+  transform: translateX(2px);
+}
+
+/**
+* f4InputDatePicker weeks
+*/
+.f4InputDatePicker .weeks {
+  margin: 5px 0px 5px 0px;
+  background-color: rgba(0,0,0, 0.2);
+  padding-top: 12px;
+}
+
+/**
+* f4InputDatePicker f4ModalBody
+*/
+.f4InputDatePicker .f4ModalBody {
+  padding: 5px 0px 5px 0px !important;
+}
+
+/**
+* f4InputDatePicker monthListItem
+*/
+.f4InputDatePicker .monthsList {
+  padding: 20px 27px !important;
+}
+
+.f4InputDatePicker .monthListItem > div, .f4InputDatePicker .monthListItemSelected > div {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.f4InputDatePicker .monthListItem:hover > div {
+  background-color: #2d71b3;
+}
+
+
+.f4InputDatePicker .monthListItemSelected > div {
+  background-color: #2d71b3;
+}
+
+
+/**
+* f4InputDatePicker headerYear
+*/
+.f4InputDatePicker .headerYear,
+.f4InputDatePicker .headerDate {
+  transition: all 0.2s ease-in-out;
+}
+
+.f4InputDatePicker .headerYear:hover,
+.f4InputDatePicker .headerDate:hover {
+  color: #5082b3;
+}

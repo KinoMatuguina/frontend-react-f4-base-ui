@@ -1,0 +1,71 @@
+/**
+* f4MultiStepFormTracker
+*/
+
+.f4MultiStepFormTracker {
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.progress-indicator {
+  transition: all 0.25s ease;
+}
+
+.f4MultiStepFormTrackerScrolled {
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  border: 1px solid #2d71b3;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+.progress-indicator>li.active .bubble,
+.progress-indicator>li.active .bubble:after,
+.progress-indicator>li.active .bubble:before {
+  background-color: #2d71b3 !important;
+  border-color: #13304d !important;
+  color: #2d71b3 !important;
+}
+.progress-indicator>li.active,
+.progress-indicator>li.active .bubble {
+    color: #2d71b3;
+}
+
+.progress-indicator>li.completed .bubble,
+.progress-indicator>li.completed .bubble:after,
+.progress-indicator>li.completed .bubble:before {
+  background-color: #27AE60 !important;
+  border-color: #27AE60 !important;
+  color:#27AE60 !important;
+}
+.progress-indicator>li.completed,
+.progress-indicator>li.completed .bubble {
+    color: #27AE60;
+}
+
+.stacked-text {
+  font-size: 11px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .progress-indicator>li .bubble {
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  .stacked-text {
+    font-size: 9px !important;
+  }
+
+  .progress-indicator>li .bubble:after, .progress-indicator>li .bubble:before {
+    top: 4px !important;
+  }
+}

@@ -1,0 +1,48 @@
+.f4Menu_parent {
+	background:	#13304d !important
+}
+
+.listStyle {
+	color: white !important;
+	background:	#13304d !important
+}
+.listStyle:hover {
+	color: black !important;
+	background: #2EA4FA !important;
+}
+.iconLeft {
+	size: 30px !important;
+	font: normal normal normal 20px/1 FontAwesome !important;
+}
+
+.iconRight{
+	color: white !important;
+	size: 30px !important;
+	font: normal normal normal 20px/1 FontAwesome !important;
+}
+
+.breadcrumb {
+	padding: 2px 11px !important;
+    list-style: none !important;
+	border-radius: 4px !important;
+	background: #13304d !important;
+}
+
+.currentPath{
+	margin-left: 10px !important;
+}
+
+
+.labelBread {
+	color: white !important;
+}
+
+.labelBread:hover {
+	color: #337ab7;
+}
+
+
+.input-group.menuSearch {
+    width: 100%;
+	background: #13304d  !important;
+}

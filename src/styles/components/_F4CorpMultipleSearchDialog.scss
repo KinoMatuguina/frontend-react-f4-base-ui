@@ -1,0 +1,118 @@
+.Collapsible {
+    background-color: none !important;
+  }
+  
+  .Collapsible:hover {
+    cursor: pointer;
+  }
+  
+  .Collapsible__contentInner {
+    border-top: 0;
+    padding-top: 10px;
+  }
+  
+  .Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5082b3 !important;
+    position: relative;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+    border: none !important;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .panel-body {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .panel-default {
+    border-color: transparent;
+    margin: 0px;
+  }
+  
+  .f4CorpDataTable {
+    font-size: 12px !important; 
+    width: 100%;
+    border-collapse: collapse;
+  }
+    
+  .f4CorpDataTable > thead {
+    color: white !important;
+    background-color: #002242 !important;
+    font-size: 12px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden; 
+    border-collapse: collapse; }
+    
+  .f4CorpDataTableTh {
+    text-align: left;
+    padding: 10px !important;
+    font-size: 15px;
+    vertical-align: middle !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600;
+    border-collapse: collapse;}
+    
+  .f4CorpDataTableTd {
+    padding: 10px !important;
+    font-size: 15px;
+    vertical-align: middle !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-collapse: collapse;}
+  
+  .f4CorpDataTableTdCode {
+    padding: 10px !important;
+    font-size: 15px;
+    vertical-align: middle !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    border-collapse: collapse;
+    cursor: pointer;}
+  
+  .f4CorpDataTableTdleft {
+    text-align: left; }
+  
+  .f4CorpDataTableTdcenter {
+    text-align: center; }
+  
+  .f4CorpDataTableTdright {
+    text-align: right; }
+  
+  .buttonX {
+    background-color: transparent;
+    border: 1px solid #5082b3 !important;  
+    border-radius:50%;
+    color: #5082b3 !important; 
+    font-weight: lighter;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+  }
+  
+  .labelTag {
+    font-weight: 10;
+    margin-bottom: 25px;
+    font-size: 13px;
+  }
+  
+  .selectedCorpLabel {
+    color: #5082b3 !important; 
+    font-weight: bold;
+    font-size: 17px;
+  }

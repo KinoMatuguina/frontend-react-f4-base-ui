@@ -1,0 +1,125 @@
+/** F4Toolbar **/
+.f4Toolbar  {
+  background: none;
+  border: none;
+  border-radius: 0px;
+  margin-bottom: 0px !important;
+}
+
+.f4ToolbarTitle {
+  display: block;
+  padding: 0px !important;
+  margin: auto;
+  color: $color-text-primary !important;
+  font-weight: normal !important;
+  font-size: 18px !important;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.f4ToolbarTitleText {
+  vertical-align: middle;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.f4ToolbarTitle.navbrand {
+}
+
+.f4ToolbarTitle > span.fa {
+  color: $color-text-primary !important;
+  margin-right: 15px !important;
+}
+
+.f4ToolbarActions {
+  width: 100%;
+  display: inline-block;
+}
+
+.f4ToolbarElementContainer {
+  float: right;
+}
+
+.f4ToolbarElement > button {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: $color-icon-dark !important;
+}
+
+.f4ToolbarElement .btn {
+  margin: 2px 6px 3px !important;
+  padding: 0 !important;
+}
+
+.f4ToolbarElement .btn:focus, .f4ToolbarElement .btn:active, .f4ToolbarElement .btn:visited {
+  outline: none;
+  border-color: transparent;
+}
+
+.f4ToolbarActionsText {
+  vertical-align: top !important;
+}
+
+.f4ToolbarActionsMore {
+  float: right !important;
+}
+
+.f4ToolbarActionsMore > button {
+  border: none;
+  background-color: transparent;
+  color: $color-icon-dark;
+  vertical-align: top !important;
+}
+
+.f4ToolbarFixedHeight {
+  max-height: 40px;
+}
+
+
+/**
+* f4ToolbarActionsInfoText
+*/
+
+.f4ToolbarActionsInfoText {
+  color: gray;
+  font-size: 14px;
+  padding: 5px 15px;
+  width: 60%;
+}
+
+
+/**
+* .f4ToolbarScrollActive
+*/
+
+.f4ToolbarTitle.f4ToolbarFixedHeight {
+  transition: all 0.2 ease;
+}
+
+.f4ToolbarTitle.f4ToolbarFixedHeight.scrollEffectActive {
+  position: fixed !important;
+  top: 15px;
+  left: 235px;
+  z-index: 1031;
+  color: #2d71b3 !important;
+  padding: 15px 0px 0px 15px;
+
+  transform: scale(1.05);
+}
+
+ @media screen and (max-width: 378px) {
+   .f4ToolbarTitle.f4ToolbarFixedHeight.scrollEffectActive {
+     position: fixed !important;
+     height: 50px;
+     width: 100%;
+     top: 50px;
+     left: 0px;
+     z-index: 1031;
+     background-color: rgba(0,0,0, 0.8);
+     color: white !important;
+    padding: 10px 0px 10px 25px !important;
+   }
+ }

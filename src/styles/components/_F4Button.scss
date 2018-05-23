@@ -1,0 +1,59 @@
+.default {
+  background-color: white;
+  color: grey;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.primary {
+  background-color: $color-button-primary;
+  color: $color-button-text;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.success {
+  background-color: $color-button-success;
+  color: $color-button-text;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.warning {
+  background-color: $color-button-secondary;
+  color: $color-button-text;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.danger {
+  background-color: $color-button-danger;
+  color: $color-button-text;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/**
+* BUTTONS
+*/
+.f4Button
+{
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.19);
+  border: none !important;
+  transition: all 0.2s ease;
+}
+
+.f4Button:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}

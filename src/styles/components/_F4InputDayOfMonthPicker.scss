@@ -1,0 +1,39 @@
+/**
+* f4InputDayOfMonthPicker
+*/
+.f4InputDayOfMonthPickerContainer {
+  text-align: center;
+}
+
+.f4InputDayOfMonthPicker {
+  display: inline-block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+.f4InputDayOfMonthPickerItem,
+.f4InputDayOfMonthPickerItemSelected {
+  float: left;
+  padding: 5px 0px 0px 0px;
+  border-radius: 50%;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+  margin: 5px;
+
+  transition: all 0.25s ease-in-out;
+}
+
+.f4InputDayOfMonthPickerItemSelected {
+  background-color: #2d71b3 !important;
+  color: white !important;
+}
+
+.f4InputDayOfMonthPickerItem:hover {
+  background-color: #2d71b3;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}

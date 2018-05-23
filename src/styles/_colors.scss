@@ -1,0 +1,83 @@
+/**
+* COLORS
+*/
+
+$color-main-bg: #e9ebee;
+
+/** Icon **/
+$color-icon-primary: #2d71b3;
+$color-icon-dark: #003466;
+
+/** Text **/
+$color-text-primary: #5082b3;
+$color-text-helper: gray;
+$color-text-danger: red;
+$color-text-success: green;
+
+/** Brand **/
+$color-brand-primary: #002242;
+$color-brand-secondary: white;
+$color-brand-text: white;
+
+/** Sidedrawer **/
+$color-sidedrawer-bg: #13304d;
+$color-sidedrawer-text: white;
+
+
+/** Form, Button **/
+$color-button-primary: #5082b3;
+$color-button-primary-focused: #2d71b3;
+$color-button-secondary: #ec971f;
+$color-button-danger: #c9302c;
+$color-button-success: #449d44;
+$color-button-text: white;
+
+$color-input-border: #2d71b3;
+$color-input-text: #555;
+$color-input-label: $color-text-primary;
+
+$color-form-separator: gray;
+$color-form-separator-bg: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+$color-input-icon-check-radio-disabled: #bbb;
+$color-input-icon-check-radio-checked: #ccc;
+$color-input-icon-check-radio-bg: white;
+
+$color-input-toggle-switch-text: white;
+
+/** Input list table **/
+$color-input-list-table-header-bg: #2d71b3;
+$color-input-list-table-header-text: white;
+
+/** Input Selector **/
+$color-input-selector-selected-bg: #2d71b3;
+$color-input-selector-selected-text: white;
+
+/** Radial Picker **/
+$color-radial-picker-main-bg: #2d71b3;
+$color-radial-picker-main-text: white;
+$color-radial-picker-option-bg: white;
+$color-radial-picker-option-hover-bg: #2d71b3;
+$color-radial-picker-option-hover-text: white;
+$color-radial-picker-option-text: gray;
+
+/** Cards **/
+$color-card-bg: white;
+$color-card-border: #e5e6e9 #dfe0e4 #d0d1d5;
+
+/** Table **/
+$color-table-header-bg: #002242;
+$color-table-header-text: white;
+
+$color-table-abstract-header-border: white;
+$color-table-abstract-cell-bg: white;
+$color-table-abstract-cell-border: gray;
+
+$color-table-striped-bg: #D3ECF5;
+$color-table-striped-hover-bg: #5082b3;
+$color-table-striped-selected-bg: #5082b3;
+$color-table-striped-selected-text: white;
+
+/** Modal **/
+$color-modal-header-bg: #002242;
+$color-modal-header-text: white;

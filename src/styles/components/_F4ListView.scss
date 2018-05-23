@@ -1,0 +1,56 @@
+.f4ListView_dragHandle {
+    cursor: pointer;
+}
+
+.f4ListView_downArrow, .f4ListView_upArrow,
+.f4ListView_downArrow:hover, .f4ListView_upArrow:hover,
+.f4ListView_downArrow:focus, .f4ListView_upArrow:focus {
+    color: black;
+}
+
+.f4ListView_deleteButton, .f4ListView_deleteButton,
+.f4ListView_deleteButton:hover, .f4ListView_deleteButton:hover,
+.f4ListView_deleteButton:focus, .f4ListView_deleteButton:focus {
+    color: red;
+}
+
+.f4ListView_rightAligned {
+    text-align: right;
+}
+
+.table > tbody > tr > .f4ListView_td {
+    vertical-align: middle;
+}
+
+.table > tbody > tr > .f4ListView_td_deleteButton {
+    text-align: center;
+}
+
+.table > tbody > tr > .f4ListView_td_dragHandle {
+    text-align: center;
+}
+
+/**dragged rows**/
+.f4ListView_draggedRow {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.f4ListView_draggedRow > td {
+    white-space: nowrap;
+    border: 1px solid #ddd;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    background-color: white;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.f4ListView_draggedRow > tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    
+}

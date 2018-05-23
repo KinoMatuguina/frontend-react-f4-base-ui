@@ -1,0 +1,49 @@
+/**
+* f4BankLocator
+*/
+.f4BranchLocatorHintText {
+  width: 80px;
+  position: absolute;
+  display: inline-block;
+  bottom: 120%;
+  left: -50%;
+  background-color: #444;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  opacity: 0.75;
+  font-size: 11px;
+  transition: all 0.25s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.f4BranchLocatorHintText::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #444 transparent transparent transparent;
+}
+
+.f4BranchLocatorMarkerContainer {
+  transition: all 0.25s ease;
+}
+
+.f4BranchLocatorMarkerContainer:hover {
+  transform: scale(1.05);
+}
+
+.f4BranchLocatorMarkerContainer:hover .f4BranchLocatorHintText,
+.f4BranchLocatorMarkerContainer:focus .f4BranchLocatorHintText {
+  visibility: visible;
+  opacity: 0.7;
+  transform: translateY(-8px);
+}
+
+.f4BranchLocator {
+  position: relative;
+}

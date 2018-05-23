@@ -1,0 +1,61 @@
+/**
+* F4AccordionMenu
+*/
+
+.f4AccordionItem {
+  font-size: 13px !important;
+}
+
+.f4AccordionToggle {
+  cursor: pointer;
+}
+
+.f4AccordionToggle:hover {
+  background-color: #f1f1f1;
+  color: #13304d;
+}
+
+/**
+* f4AccordionMenuChild
+*/
+.f4AccordionMenuChild {
+  cursor: pointer;
+  background-color: #05223e;
+}
+
+.f4AccordionMenuChild:hover {
+  background-color: #f1f1f1;
+  color: #05223e;
+}
+
+/**
+* f4AccordionToggleContent
+*/
+.f4AccordionToggleContent {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.f4AccordionToggleContentIcon,
+.f4AccordionToggleContentText {
+  float: left;
+}
+
+.f4AccordionToggleContentCaret {
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin: 15px 0px 0px 0px;
+}
+
+.f4AccordionToggleContentText {
+  margin: 15px 0px 0px 0px;
+}
+
+.f4AccordionToggleContentIcon {
+  width: 30px;
+  height: 30px;
+  margin: 15px 10px 0px 10px;
+}

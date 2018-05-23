@@ -1,0 +1,35 @@
+
+.f4DrawerHeader {
+  width: 100%;
+}
+
+.f4DrawerHeaderAvatarContainer {
+  height: 64px;
+  padding: 15px;
+}
+
+.f4DrawerHeaderAvatar {
+  float: left;
+  vertical-align: middle;
+}
+
+.f4DrawerHeaderAvatar > img {
+  width: 64px;
+  height: 64px;
+}
+
+.f4DrawerHeaderText {
+  margin-left: 64px;
+  padding: 10px;
+  color: white;
+  vertical-align: middle;
+}
+
+.f4DrawerHeaderLoginInfo {
+  clear: both;
+  padding: 15px;
+}
+
+.f4DrawerHeaderLoginInfo div {
+  font-size: 11px !important;
+}

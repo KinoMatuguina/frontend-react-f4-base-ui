@@ -1,0 +1,36 @@
+.f4InputList.btn:focus {
+  outline: none;
+  background-color: $color-button-primary-focused !important;
+}
+
+.f4InputList.btn {
+  transition: all .2s ease-in-out;
+}
+
+.f4InputList.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.f4DivTable {
+  display: table;
+}
+
+.f4DivTableRow {
+  display: table-row;
+}
+
+.f4DivTableHead {
+  display: table-row;
+  text-align: center;
+  background-color: $color-input-list-table-header-bg;
+  color: $color-input-list-table-header-text;
+  font-size: 15px;
+}
+
+.f4DivTableCell {
+  display: table-cell;
+  padding: 15px;
+  font-size: 13px;
+  vertical-align: bottom !important;
+  min-width: 190px !important;
+}

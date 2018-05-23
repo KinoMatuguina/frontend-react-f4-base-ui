@@ -1,0 +1,60 @@
+.f4ToggleSwitch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+}
+
+.f4ToggleSwitch > input {
+  display: none;
+}
+
+.f4ToggleSwitchSlider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.f4ToggleSwitchSlider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 2px;
+  bottom: 2px;
+  background-color: $color-input-toggle-switch-text;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.f4ToggleSwitch > input:checked + .f4ToggleSwitchSlider {
+  background-color: $color-input-border;
+}
+
+.f4ToggleSwitch > input:focus + .f4ToggleSwitchSlider {
+  box-shadow: 0 0 1px $color-input-border;
+}
+
+.f4ToggleSwitch > input:checked + .f4ToggleSwitchSlider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.f4ToggleSwitchSlider.round {
+  border-radius: 34px;
+}
+
+.f4ToggleSwitchSlider.round:before {
+  border-radius: 50%;
+}
+
+.f4ToggleSwitchSlider.disabled:before {
+  background-color: $color-input-toggle-switch-text;
+}

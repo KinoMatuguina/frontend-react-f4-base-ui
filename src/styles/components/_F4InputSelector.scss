@@ -1,0 +1,32 @@
+.f4InputSelector {
+  padding-top: 5px !important;
+}
+
+.f4InputSelectorButton {
+  font-size: 12px !important;
+  border-radius: 0px !important;
+  border-color: $color-input-border !important;
+  color: $color-input-border !important;
+}
+
+.f4InputSelectorButton:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.f4InputSelectorButton.selected {
+  border-radius: 0px !important;
+  border-color: $color-input-border !important;
+  background-color: $color-input-selector-selected-bg !important;
+  color: $color-input-selector-selected-text !important;
+}
+
+/**
+* f4InputSelector
+*/
+@media screen and (max-width: 425px) {
+  .f4InputSelectorButton {
+    width: 100%;
+    margin: 1% auto !important;
+  }
+}

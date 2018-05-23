@@ -1,0 +1,57 @@
+.f4Navbar {
+  background-color: $color-brand-secondary;
+  border: none;
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+}
+
+.f4NavbarHeader, .f4NavbarHeader .navbar-header {
+  min-width: 270px !important;
+}
+
+.f4Navbar > div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.f4Navbar > div > .f4NavbarHeader {
+  width: 25%;
+  background-color: $color-brand-primary !important;
+  max-width: 220px !important;
+  min-width: 220px !important;
+  margin-left: 0px !important;
+}
+
+.f4NavbarLogo {
+  height: 20px;
+  width: 111px;
+}
+
+.f4NavbarActions {
+  margin-right: 15px;
+}
+
+.f4NavbarActions > li > a {
+  color: $color-icon-primary !important;
+  padding-left: 50px;
+}
+
+.f4NavbarActionsMore {
+  position: fixed !important;
+  background-color: transparent !important;
+  top: 10px !important;
+  right: 10px !important;
+}
+
+/**
+* burger menu
+*/
+.f4NavbarBrand > span > span {
+  transition: all 0.25s ease-in-out;
+}
+
+.f4NavbarBrand > span > span:hover {
+  transform: scale(1.5);
+}

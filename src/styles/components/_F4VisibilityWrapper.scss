@@ -1,0 +1,38 @@
+/* http://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load */
+.f4VisibilityWrapper {
+  display: block;
+  -webkit-animation: slideDownFade 0.7s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+         -moz-animation: slideDownFade 0.7s; /* Firefox < 16 */
+          -ms-animation: slideDownFade 0.7s; /* Internet Explorer */
+           -o-animation: slideDownFade 0.7s; /* Opera < 12.1 */
+              animation: slideDownFade 0.7s;
+}
+
+@keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px) }
+    to   { opacity: 1; transform: translateY(0) }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px) }
+    to   { opacity: 1; transform: translateY(0) }
+}
+
+ // Safari, Chrome and Opera > 12.1
+@-webkit-keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px) }
+    to   { opacity: 1; transform: translateY(0) }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px) }
+    to   { opacity: 1; transform: translateY(0) }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideDownFade {
+    from { opacity: 0; transform: translateY(-10px) }
+    to   { opacity: 1; transform: translateY(0) }
+}

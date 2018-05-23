@@ -1,0 +1,81 @@
+.f4InputFileUploadWithLoader_helperMessage {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 1em;
+    display: none;
+}
+
+@media only screen and (min-width: 360px) {
+    .f4InputFileUploadWithLoader_helperMessage {
+        display: inline;
+    }
+}
+
+.f4InputFileUploadWithLoader_fileInputLabel {
+    position: absolute;
+    top: 40%;
+    left: 12.5%;
+    overflow: hidden;
+    border: 1px solid #afaba5;
+    border-radius: 2px;
+    width: 75%;
+    max-width: 250px;
+    max-height: 60px;
+    padding: 0 5px 0 5px;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.f4InputFileUploadWithLoader_fileInput {
+    width: 100%;
+    opacity: 0;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.f4InputFileUploadWithLoader_fileInputContainer {
+    border: 2px solid #afaba5;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.f4InputFileUploadWithLoader_selectedFiles {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.f4InputFileUploadWithLoader_selectedFiles:hover {
+    border: 1px solid #DEDEDE;
+    background: #fff;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.f4InputFileUploadWithLoader_selectedFilesName {
+    display: inline-block;
+    margin-top: 8px;
+    width: 85%;
+    font-size: 22px;
+    vertical-align: middle;
+    position: relative;
+    color: #036fad;
+}
+
+.f4InputFileUploadWithLoader_selectedFilesRemoveButton {
+    display: none;
+    float: right;
+    vertical-align: middle;
+}
+
+.f4InputFileUploadWithLoader_selectedFiles:hover .f4InputFileUploadWithLoader_selectedFilesRemoveButton {
+    display: inline-block;
+}

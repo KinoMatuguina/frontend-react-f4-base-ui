@@ -1,0 +1,90 @@
+/* source: http://bootsnipp.com/snippets/featured/animated-radios-amp-checkboxes-nojs */
+
+.f4IconRadio {
+  margin-right: 20px;
+}
+
+.f4InputIconRadioContainer {
+  display: table;
+  margin: 0 auto;
+}
+
+.f4IconCheckbox label:after,
+.f4IconRadio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.f4IconCheckbox .cr,
+.f4IconRadio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid $color-input-border;
+    background-color: $color-input-icon-check-radio-bg;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.f4IconCheckbox .cr-text,
+.f4IconRadio .cr-text {
+  font-size: 13px;
+  color: $color-input-label;
+}
+
+.f4IconRadio .cr {
+    border-radius: 50%;
+}
+
+.f4IconCheckbox .cr .cr-icon,
+.f4IconRadio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+/*.f4IconRadio .cr .cr-icon {
+    margin-left: 0.04em;
+    top: 51% !important;
+}*/
+
+.f4IconCheckbox label input[type="checkbox"],
+.f4IconRadio label input[type="radio"] {
+    display: none;
+}
+
+.f4IconCheckbox label input[type="checkbox"] + .cr > .cr-icon,
+.f4IconRadio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-30deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.f4IconCheckbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.f4IconRadio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1.3) rotateZ(0deg);
+    opacity: 1;
+}
+
+.f4IconCheckbox label input[type="checkbox"]:disabled + .cr,
+.f4IconRadio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+    cursor: not-allowed;
+    background-color: $color-input-icon-check-radio-disabled;
+}
+
+.f4IconCheckbox label input[type="checkbox"]:checked + .cr,
+.f4IconRadio label input[type="radio"]:checked + .cr {
+    background-color: $color-input-icon-check-radio-checked;
+}
+
+.f4IconCheckbox label input[type="checkbox"]:focus + .cr,
+.f4IconRadio label input[type="radio"]:focus + .cr {
+    border-color: $color-input-border;
+    box-shadow: 0 0 5px $color-input-border;
+}

@@ -1,0 +1,21 @@
+.f4Card {
+  margin-bottom: 0px;
+  border: 1px solid;
+  border-color: $color-card-border;
+  border-radius: 3px;
+  box-shadow: none !important;
+}
+
+.f4CardHeading {
+  background-color: $color-card-bg;
+  border: none;
+  font-size: 15px !important;
+}
+
+
+.f4CardHeading > .row {
+  margin-bottom: 0 !important;
+}
+
+.f4CardBody {
+}

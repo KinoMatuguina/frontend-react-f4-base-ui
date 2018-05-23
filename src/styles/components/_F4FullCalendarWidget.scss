@@ -1,0 +1,160 @@
+
+/**
+* f4FullCalendarWidget
+*/
+.f4FullCalendarWidget.f4Card {
+  background-color: white !important;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.f4FullCalendarMonth {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  padding-right: 0;
+}
+
+.f4ResponsiveSquare {
+  float: left;
+  position: relative;
+  width: 13.5%;
+  padding-bottom: 13.5%;
+  margin: 0.25%;
+  overflow: hidden;
+}
+
+.f4FullCalendarDay {
+  border-radius: 5px;
+  position: relative;
+}
+
+.f4FullCalendarDayTaskBadge {
+  position: absolute;
+  background-color: red;
+  text-align: center;
+  padding: 5%;
+  font-size: 12px;
+  border-bottom-right-radius: 15%;
+}
+
+.f4FullCalendarMonthWeeks,
+.f4FullCalendarMonthDays {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.f4FullCalendarMonthWeeks {
+  margin-right: 2%;
+}
+
+
+.f4FullCalendarWeeks > .f4ResponsiveSquareContent > .f4ResponsiveSquareTable > .f4ResponsiveSquareTableCell,
+.f4FullCalendarDay > .f4ResponsiveSquareContent > .f4ResponsiveSquareTable > .f4ResponsiveSquareTableCell {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.f4FullCalendarDay.Current.f4ResponsiveSquare {
+  background-color: gray !important;
+  color: white !important;
+}
+
+.f4FullCalendarDay.Tasks.f4ResponsiveSquare {
+  background-color: #5082b3 !important;
+  color: white !important;
+  cursor: pointer;
+}
+
+.f4FullCalendarWeeks {
+  padding-bottom: 10% !important;
+}
+
+.f4ResponsiveSquareContent {
+    position:absolute;
+    height:100%; /* = 100% - 2*10% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding: 10% 5%;
+}
+.f4ResponsiveSquareTable {
+    display:table;
+    height:100%;
+    width:100%;
+}
+.f4ResponsiveSquareTableCell {
+    display:table-cell;
+    height:100%;
+    width:100%;
+}
+
+.f4ResponsiveSquareTableCell > span {
+  font-size: 18px;
+}
+
+.f4FullCalendarHr {
+  border-color: #5082b3;
+  border-width: medium;
+  margin-top: 0;
+  margin-right: 2%;
+}
+
+.f4FullCalendarWidgetHeader {
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.f4FullCalendarWidgetHeaderTitle {
+  color: #5082b3 !important;
+  font-size: 20px;
+}
+
+.f4FullCalendarWidgetHeader > .calendarArrow {
+  font-size: 25px;
+  width: 41px !important;
+  height: 41px !important;
+}
+
+.f4FullCalendarTaskView {
+  min-height: 480px !important;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.f4FullCalendarTaskView > ul {
+  padding: 2%;
+  list-style: none;
+}
+
+.f4FullCalendarTaskView > ul > li {
+  border-radius: 5px;
+  background-color: #ccc;
+  margin-bottom: 2%;
+  padding: 0.5% 2% 0.5% 2%;
+}
+
+.f4FullCalendarTaskViewCurrentDate {
+  color: #5082b3;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  padding: 2%;
+}
+
+.f4FullCalendarTaskViewCurrentDate > span {
+  padding: 2%;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border-radius: 15px;
+}
+
+.f4FullCalendarTaskViewCurrentDate > span:hover {
+  background-color: #5082b3;
+  color: white;
+}

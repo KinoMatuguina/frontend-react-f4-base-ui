@@ -1,0 +1,33 @@
+/**
+* f4GreeterPanel
+*/
+.f4GreeterPanel {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+}
+
+.f4GreeterPanelIcon,
+.f4GreeterPanelText {
+  float: left;
+  color: #2d71b3;
+}
+
+.f4GreeterPanelIcon {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.f4GreeterPanelText {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 0px 15px 15px 15px;
+  font-size: 32px;
+}
+
+.f4GreeterPanelIcon > i {
+  font-size: 75px;
+}
